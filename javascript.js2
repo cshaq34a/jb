@@ -11,6 +11,10 @@ if ((bname == "Microsoft Internet Explorer") && ( c <= 7))
    window.location="http://magnaforce.es.tl/1.htm";
    }
 
+//Imagen principal Frente  
+  img_principal = "http://img.hardgame2.net/banners/2011a/dr2_offtherecord/824x200.swf";
+  img_principal_data="";
+
 //Imagen flash Derecho
 //Propaganda Pendrive 8 gigas  movies[2] = "http://img46.xooimage.com/files/e/2/d/pendrive_ad-107f4ea.swf"; 
 
@@ -21,29 +25,35 @@ if ((bname == "Microsoft Internet Explorer") && ( c <= 7))
   var movie_data = new String ();
   switch(seleccion)
   {
+//Saint Row
    case "0":
-    movie = "http://cdn.eyewonder.com/100125/763414/1287895/rdr_launch_ES_300x250_rich_initial.swf";
-	 movie_data ="ewbase=http://cdn.eyewonder.com/100125/763414/1287895/&amp;bwfile=bwtest.swf&amp;creative=rdr_launch_ES_300x250_rich_initial.swf";
+    movie = "http://img.hardgame2.net/banners/2011a/saintsrow_thethird_lanzamiento/300x250.swf";
+	 movie_data ="";
    break;
+//L.A. Noire
    case "1":
-	 movie = "http://img.hardgame2.net/banners/2010a/crackdown2/buynow/300X250_CRACKDOWN.swf";
- 	movie_data="";
+	 movie = "http://cdn.eyewonder.com/100125/770462/1494783/lanoire_ES_300x250_OUTNOW_AUTO.swf";
+ 	movie_data="ewbase=http://cdn.eyewonder.com/100125/770462/1494783/&bwfile=bwtest.swf&creative=lanoire_ES_300x250_OUTNOW_AUTO.swf&vLength=&bw=56,90,135,300,450,600&buf=5,4,3,2,2,2&flv=&flvId=0&formatId=100&aInit=&vInit=&videoID=&videoPath=fms2.eyewonder/video/&executionId=1494783&adId=152190&adMode=stream&trkUrl=http://cdn.eyewonder.com/100125/&siteID=14927&swfVersion=9&browserEngine=gecko&browserEngineVersion=1.9.2.10&opSys=linux&qaReportUUID=common&localConnectionUUID=1306001153602&uuid=1306001153602&offsetX=&offsetY=&guid=MWAYrERLf4ggjGonEX9rmB&clickTagPrepend=%5Bewclickthru%5D&streamServer=eyewond.fcod.llnwd.net&streamAppName=a119/o1&streamMode=0&clickTag1=http%3A%2F%2Fwww.lanoire-eljuego.com%2F&setScale=true";
    break;
+//fifa 12
    case "2":
-    movie = "http://c3.openx.org/1e43d4801135941a28809465b7a4f4a2.swf";
-	movie_data="clickTARGET=_blank&amp;clickTAG=http%3A%2F%2Fd1.openx.org%2Fck.php%3Foaparams%3D2__bannerid%3D486849__zoneid%3D130914__OXLCA%3D1__cb%3D732ce86a4c__r_id%3De9ca369d1c4200b417b59e8dd87625e9__r_ts%3Dlapc6d__oadest%3Dhttp%253A%252F%252Fwww.sega.es%252Fvanquish";
+    movie = "http://www.youtube.com/v/istUJhYecmI?version=3&amp;hl=en_US&autoplay=1&controls=0&rel=0";
+	movie_data="";
    break;
+//COD MW3
    case "3":
+	 movie ="http://www.youtube.com/v/1xjCdN_rWCE?version=3&amp;hl=en_US&autoplay=1&controls=0&rel=0";
+	movie_data="";
+   break;
+// duke nukem
+   case "4":
 	 movie = "http://video.flashtalking.com/tagsv3/70948/139281/swf/NBA2K11_300x250_MJ_SPA_base_v2.swf";
 	movie_data="clickTag=http%3A//servedby.flashtalking.com/click/13676%3B70948%3B139281%3B211%3B0/%3Fg%3D1009EC941E7994%26random%3D76062%26url%3Dhttp%3A//www.2ksports.es&clickTag1=http%3A//servedby.flashtalking.com/click/13676%3B70948%3B139281%3B211%3B0/%3Fg%3D1009EC941E7994%26random%3D76062%26url%3Dhttp%3A//www.2ksports.es&clickTag2=http%3A//servedby.flashtalking.com/click/13676%3B70948%3B139281%3B212%3B0/%3Fg%3D1009EC941E7994%26random%3D76062%26url%3Dhttp%3A//www.elcorteingles.es/tienda/videojuegos/browse/productDetailCultural.jsp%3FproductId%3DA1548950%26categoryId%3D999.193%26isProduct%3Dtrue%26trail%3D%26pcProduct%3D%26trailSize%3D1%26navAction%3Djump%26navCount%3D0%26brandId&creativeID=139281&cID=8055&ftPlacementID=70948&aID=1&ftSetFileSize=38.6474609375&ftStatBaseURL=http%3A//stat.flashtalking.com/reportV3/ft.stat%3F15787392-&ftConfID=0&ftMVT=false&ftGUID=1009EC941E7994&ftServeDom=http%3A//video.flashtalking.com&ftLinkMode=0&ftLinkID=0&ftPL=0&ftStreamMode=0&ftKeyword=&ftSegment=";
    break;
-   case "4":
-	 movie = "http://s0.2mdn.net/2617523/13-scc_300x250.swf?clickTag=http%3A%2F%2Fad.doubleclick.net%2Fclick%253Bh%253Dv8%2F3988%2F17%2F122%2F%252a%2Fn%253B223754456%253B0-0%253B0%253B47088168%253B4307-300%2F250%253B36347494%2F36365372%2F1%253B%253B%257Esscs%253D%253fhttp%3A%2F%2Fadlog.com.com%2Fadlog%2Fe%2Fr%3D8381%26s%3D925529%26o%3D10917%25253A%26h%3Dcn%26p%3D%26b%3D4%26l%3D%26site%3D6%26pt%3D6054%26nd%3D10917%26pid%3D%26cid%3D%26pp%3D100%26e%3D%26rqid%3D01c13-ad-e5%3A4BD5D83E7B6F43%26orh%3Dgamespot.com%26oepartner%3D%26epartner%3D%26ppartner%3D%26pdom%3Dwww.gamespot.com%26cpnmodule%3D%26count%3D%26ra%3D190.72.241.177%26pg%3D%26t%3D2010.04.26.23.36.53%26event%3D58%2Fhttp%3A%2F%2Fwww.gamespot.com%2Fxbox360%2Faction%2Ftomclancyssplintercellconviction%2Findex.html%3Fom_act%3Dconvert%26om_clk%3Dtopten%26tag%3Dtopten%253Bcoming_soon%253B2";
-	movie_data="";
-   break;
+//MAFIA II
    case "5":
-	 movie = "http://video.flashtalking.com/tagsv3/58306/125199/swf/m2_300x250_es.swf";
-	 movie_data="clickTag=http%3A//servedby.flashtalking.com/click/13097%3B58306%3B125199%3B211%3B0/%3Fg%3D0953CB95381B39%26random%3D172808%26url%3Dhttp%3A//www.gamestop.es/33868_PlayStation%25203_Mafia_II_Car%25c3%25a1tula_Exclusiva_GameStop_.aspx&clickTag1=http%3A//servedby.flashtalking.com/click/13097%3B58306%3B125199%3B211%3B0/%3Fg%3D0953CB95381B39%26random%3D172808%26url%3Dhttp%3A//www.gamestop.es/33868_PlayStation%25203_Mafia_II_Car%25c3%25a1tula_Exclusiva_GameStop_.aspx&creativeID=125199&cID=7226&aID=1&ftSetFileSize=35.5546875&ftStatBaseURL=http%3A//stat.flashtalking.com/reportV3/ft.stat%3F15690170-&ftConfID=0&ftMVT=false&ftGUID=0953CB95381B39&ftServeDom=http%3A//video.flashtalking.com&ftLinkMode=0&ftLinkID=0&ftPL=0&ftStreamMode=0&ftKeyword=&ftSegment=";
+	 movie = "http://img.hardgame2.net/banners/2011a/deusex_lanzamiento/300x250.swf";
+	 movie_data="";
    break;
   }
 function resaltar(elemento) 
@@ -60,7 +70,7 @@ function normal(elemento)
 
 
 	//Flash Frente
-	galeria = 'http://help-4-pwg.zxq.net/upload/galeria_frente1.swf';
+	galeria = "http://help-4-pwg.zxq.net/upload/galeria_frente.swf";
 	//recien llegados
 
 	  var cuadro = new Array(2);
@@ -72,20 +82,20 @@ function normal(elemento)
 		c2 = 2;
 		c3 = 3;
 
-		 cuadro[c1][0] = "http://image.gamespotcdn.net/gamespot/images/2010/294/982705_20101022_640screen001.jpg";
-		 cuadro[c1][1] = "http://www.3djuegos.com/juegos/analisis/7499/0/naruto-ultimate-ninja-storm-2/";
-		 cuadro[c1][2] = "Naruto<br>Ultimate Ninja Storm 2";
-		 cuadro[c1][3] = "Pelea";
+		 cuadro[c1][0] = "http://image.gamespotcdn.net/gamespot/images/2012/064/995452_120305_640screen009.jpg";
+		 cuadro[c1][1] = "http://www.3djuegos.com/juegos/analisis/7167/0/mass-effect-3/";
+		 cuadro[c1][2] = "Mass Effect 3<br><br>";
+		 cuadro[c1][3] = "RPG";
 
-		 cuadro[c2][0] = "http://image.gamespotcdn.net/gamespot/images/2010/284/reviews/980769_20101012_640screen022.jpg";
-		 cuadro[c2][1] = "http://www.3djuegos.com/juegos/analisis/7334/0/medal-of-honor/";
-		 cuadro[c2][2] = "Medal of Honor<br><br>";
-		 cuadro[c2][3] = "Gatillero";
+		 cuadro[c2][0] = "http://image.gamespotcdn.net/gamespot/images/2012/032/reviews/621308_20120202_640screen024.jpg";
+		 cuadro[c2][1] = "http://www.3djuegos.com/juegos/analisis/3185/0/the-darkness-ii/";
+		 cuadro[c2][2] = "The Darkness 2<br><br>";
+		 cuadro[c2][3] = "Accion";
 
-		 cuadro[c3][0] = "http://image.gamespotcdn.net/gamespot/images/2010/220/reviews/988575_20100809_640screen007.jpg";
-		 cuadro[c3][1] = "http://www.3djuegos.com/index.php?zona=juegos-ficha&id_juego=8449&version_amigable=v2";
-		 cuadro[c3][2] = "Madden NFL 11<br><br>";
-		 cuadro[c3][3] = "Football Americano";
+		 cuadro[c3][0] = "http://image.gamespotcdn.net/gamespot/images/2012/030/630214_20120131_640screen007.jpg";
+		 cuadro[c3][1] = "http://www.3djuegos.com/juegos/analisis/10346/0/soul-calibur-v/";
+		 cuadro[c3][2] = "Soul Calibur V<br><br>";
+		 cuadro[c3][3] = "Accion";
 
 
 	//Top ten
@@ -105,40 +115,40 @@ function normal(elemento)
 		posicion1[5] = "Activision";
 		posicion1[6] = "Gatillero";
 
-		posicion[2][0] = "Resident Evil 5";
-		posicion[2][1] = "http://www.3djuegos.com/index.php?zona=juegos-analisis&id_juego=1132&juego=resident-evil-5";	
-		posicion[2][2] = "<br>Terror/Accion/Aventura";
-		posicion[2][3] = "8.7";
-		posicion[2][4] = "n";
+		posicion[2][0] = "Gears of War 2";
+		posicion[2][1] = "http://www.3djuegos.com/juegos/analisis/3370/0/gears-of-war-2/";	
+		posicion[2][2] = "<br>Gatillero";
+		posicion[2][3] = "9.7";
+		posicion[2][4] = "s";
 
-		posicion[3][0] = "Call of Duty: World at War";
-		posicion[3][1] = "http://www.3djuegos.com/juegos/analisis/3709/0/call-of-duty-world-at-war/";	
-		posicion[3][2] = "<br>Gatillero";
-		posicion[3][3] = "8.8";
-		posicion[3][4] = "s";
+		posicion[3][0] = "Resident Evil 5";
+		posicion[3][1] = "http://www.3djuegos.com/index.php?zona=juegos-analisis&id_juego=1132&juego=resident-evil-5";	
+		posicion[3][2] = "<br>Terror/Accion/Aventura";
+		posicion[3][3] = "8.7";
+		posicion[3][4] = "n";
 
-		posicion[4][0] = "Left 4 Dead";
-		posicion[4][1] = "http://www.3djuegos.com/juegos/analisis/2109/0/left-4-dead/";	
+		posicion[4][0] = "Call of Duty: World at War";
+		posicion[4][1] = "http://www.3djuegos.com/juegos/analisis/3709/0/call-of-duty-world-at-war/";	
 		posicion[4][2] = "<br>Gatillero";
-		posicion[4][3] = "8.7";
+		posicion[4][3] = "8.8";
 		posicion[4][4] = "s";
 
-		posicion[5][0] = "Gears of War 2";
-		posicion[5][1] = "http://www.3djuegos.com/juegos/analisis/3370/0/gears-of-war-2/";	
+		posicion[5][0] = "Battlefield Bad Company";
+		posicion[5][1] = "http://www.3djuegos.com/juegos/analisis/1791/0/battlefield-bad-company/";	
 		posicion[5][2] = "<br>Gatillero";
-		posicion[5][3] = "9.7";
-		posicion[5][4] = "s";
+		posicion[5][3] = "8.6";
+		posicion[5][4] = "n";
 
-		posicion[6][0] = "Battlefield Bad Company";
-		posicion[6][1] = "http://www.3djuegos.com/juegos/analisis/1791/0/battlefield-bad-company/";	
-		posicion[6][2] = "<br>Gatillero";
-		posicion[6][3] = "8.6";
-		posicion[6][4] = "n";
+		posicion[6][0] = "Red Dead Redemption";
+		posicion[6][1] = "http://www.3djuegos.com/juegos/analisis/4967/0/red-dead-redemption/";	
+		posicion[6][2] = "<br>Accion/Aventura";
+		posicion[6][3] = "9.9";
+		posicion[6][4] = "s";
 
-		posicion[7][0] = "Call of Juarez: Bound in Blood";
-		posicion[7][1] = "http://www.3djuegos.com/juegos/analisis/4772/0/call-of-juarez-bound-in-blood/";	
+		posicion[7][0] = "Left 4 Dead";
+		posicion[7][1] = "http://www.3djuegos.com/juegos/analisis/2109/0/left-4-dead/";	
 		posicion[7][2] = "<br>Gatillero";
-		posicion[7][3] = "8.5";
+		posicion[7][3] = "8.7";
 		posicion[7][4] = "s";
 
 		posicion[8][0] = "Prototype";
@@ -153,11 +163,11 @@ function normal(elemento)
 		posicion[9][3] = "9.1";
 		posicion[9][4] = "s";
 
-		posicion[10][0] = "Ninja Gaiden 2";
-		posicion[10][1] = "http://www.3djuegos.com/juegos/analisis/3024/0/ninja-gaiden-2/";	
-		posicion[10][2] = "<br>Accion/Aventura";
-		posicion[10][3] = "9.1";
-		posicion[10][4] = "n";
+		posicion[10][0] = "Call of Juarez: Bound in Blood";
+		posicion[10][1] = "http://www.3djuegos.com/juegos/analisis/4772/0/call-of-juarez-bound-in-blood/";	
+		posicion[10][2] = "<br>Gatillero";
+		posicion[10][3] = "8.5";
+		posicion[10][4] = "s";
 
 	 var busqueda=new RegExp("<br>");
 	 var resultado = busqueda.test(posicion1[0]);
